@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Gained:</title>
+    <style>
+        
+
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(90deg, #6c91ff, #e3e9ff, #c34400, #000000);
+            background-size: 400% 400%;
+            animation: gradientMove 15s ease infinite;
+            scroll-behavior: smooth;
+            color: #000000;
+        }
+
+        .image-text-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 8%
+        }
+
+        .image-text-container > * {
+            margin: 10px;
+        }
+
+        .image-text-container img {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #dddddd00;
+            border-radius: 10px;
+        }
+
+        .image-text-container span {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .sidebar {
+            background-color: rgba(255, 255, 255, 0.332);
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 100px;
+            width: 200px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 10px;
+            color: black;
+            text-decoration: none;
+            font-size: 1.2rem;
+            text-align: center;
+            border-radius: 5px;
+            animation: bounceIn 1.5s ease-out forwards;
+            opacity: 0;
+        }
+
+        .sidebar a:hover {
+            background-color: #e3e9ff;
+            color: black;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }
+
+        @keyframes bounceIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <a href="portfolioindex.html" style="animation-delay: 0.6s;">
+            <i class="fas fa-arrow-left"></i> Back to Index
+        </a>
+    </div>
+
+    <div class="image-text-container">
+        <span>SLEEP</span>
+        <img src="images/ -148.jpg" alt="Image 1">
+        <span> QUALITATIVE RESEARCH</span>
+        <img src="images/ -149.jpg" alt="Image 2">
+        <span>TEAM MANAGEMENT</span>
+        <img src="images/ -150.jpg" alt="Image 3">
+        <span>EFFICIENCY</span>
+        <img src="images/ -151.jpg" alt="Image 4">
+        <span>SCHEDULE CONTROL</span>
+        <img src="images/ -152.jpg" alt="Image 4">        
+        <span>WEBSITE DESIGN</span>
+        <img src="images/ -153.jpg" alt="Image 4">       
+        <span>BRAND STRATEGY</span>
+        <img src="images/ -154.jpg" alt="Image 4">
+        <span>EVENT PLANNING</span>
+        <img src="images/ -155.jpg" alt="Image 4">
+        <span>PROTOTYPING</span>
+        <img src="images/Burned film.jpg" alt="Image 4">
+        <span>STORYTELLING</span>
+        <img src="images/ -156.jpg" alt="Image 4">
+        </div>
+</body>
+</html>
